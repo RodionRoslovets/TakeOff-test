@@ -1,0 +1,16 @@
+.controls{
+    & button{
+        margin-right: 10px;
+    }
+}
+
+.continueButton{
+    color:#fff;
+    border-color:green;
+    background: green;
+}
+
+.testButton{
+    color:green;
+    border-color:#ccc;
+}

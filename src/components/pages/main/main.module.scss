@@ -1,0 +1,15 @@
+.quizNav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 10%;
+    border-bottom: 1px solid black;
+    & li {
+        flex-grow: 1;
+        text-align: center;
+        & a {
+            color: darkgreen;
+            display: block;
+        }
+    }
+}

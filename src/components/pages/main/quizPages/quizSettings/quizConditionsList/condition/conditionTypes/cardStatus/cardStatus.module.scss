@@ -1,0 +1,19 @@
+.cardStatus{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    & label{
+        padding: 10px;
+        & button, & select{
+            margin: 10px;
+        }
+    }
+}
+.deleteButton{
+    border-color: red;
+    color:red;
+}
+.addButton{
+    border-color: rgb(100, 200, 50);
+    color:rgb(100, 200, 50);
+}

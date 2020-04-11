@@ -1,0 +1,9 @@
+.breadcrumbs{
+    padding-left:10%;
+    & ul{
+        display: flex;
+        & li {
+            margin-right: 10px;
+        }
+    }
+}

@@ -1,0 +1,17 @@
+.rangeItem{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    & label{
+        margin-right: 10px;
+    }
+}
+
+.deleteButton{
+    border-color: red;
+    color:red;
+}
+.addButton{
+    border-color: rgb(100, 200, 50);
+    color:rgb(100, 200, 50);
+}

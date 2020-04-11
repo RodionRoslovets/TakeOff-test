@@ -1,0 +1,24 @@
+.sidebar {
+    width: 15%;
+    padding: 0 15px;
+    & a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        border: 1px solid black;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+
+        &:hover{
+            color:rgb(100, 200, 50);
+            border-color:rgb(100, 200, 50);
+        }
+    }
+    & li {
+        margin-bottom: 15px;
+    }
+}

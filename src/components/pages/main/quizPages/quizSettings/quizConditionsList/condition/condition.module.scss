@@ -1,0 +1,13 @@
+.condition{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    padding:10px;
+    & > button{
+        margin-top: 10px;
+    }
+}
+.deleteButton{
+    border-color: red;
+    color:red;
+}
